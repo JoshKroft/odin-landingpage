@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content:space-between;
+    padding: 8px;
+    color: white;
+    background-color: #1F2937;
+}
+
+.header h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+li {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+
+}
+
+.header.left, .header.right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
