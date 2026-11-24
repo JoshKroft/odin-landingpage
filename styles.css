@@ -56,8 +56,6 @@ a {
 }
 
 .hero-secondary {
-    display: flex;
-    flex-wrap: wrap;
     font-size: 18px;
     max-width: 500px;
     color: #E5E7EB;
@@ -76,6 +74,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items:baseline;
+    justify-content: space-evenly;
 }
 
 .image-ph {
