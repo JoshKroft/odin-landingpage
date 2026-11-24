@@ -5,18 +5,23 @@
 }
 
 body {
-    display: flex;
     margin: 0;
     height: 100vh;
+}
+
+.top-container {
+    display:flex;
     flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 8px;
 }
 
 .header {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    padding: 8px;
     color: white;
+    gap: 28em;
     background-color: #1F2937;
     padding-bottom: 64px;
 }
@@ -45,39 +50,32 @@ a {
 
 /* --- Hero Section --- */
 
-.hero-text {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-
-}
-
-.hero-text h2 {
+.hero-primary {
     font-size: 48px;
     Color: #F9FAF8;
     font-weight: 900;
-    gap: 0px;
 }
 
-.hero-text p {
+.hero-secondary {
     display: flex;
     flex-wrap: wrap;
     font-size: 18px;
     max-width: 500px;
+    color: #E5E7EB;
 }
 
 .hero {
     display: flex;
     justify-content: space-around;
-    padding: 8px;
     color: white;
     background-color: #1F2937;
+    margin-bottom: 32px;
 }
 
 .image-ph {
     display: flex;
     align-items: center;
-    padding: 32px;
+    padding: 128px;
     background-color: grey;
 }
 
@@ -87,5 +85,54 @@ button {
     color: #1F2937;
     font-weight: 900;
 }
+
+/* --- Information Section --- */
+
+.info-section {
+    justify-content: center;
+    text-align: center;
+}
+
+.info-title {
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 75px;
+}
+
+.image-box {
+    padding: 84px;
+    border: solid blue;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+/* --- Quote Section --- */
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 64px;
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
 
 
